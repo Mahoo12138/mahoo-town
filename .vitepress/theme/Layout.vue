@@ -5,7 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 
 import Banner from './components/Banner.vue';
 import ServerInfo from './components/ServerInfo.vue';
-import Feature from './components/feature.vue';
+import Feature from './components/Feature.vue';
 
 
 
