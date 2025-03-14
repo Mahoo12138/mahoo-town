@@ -131,6 +131,7 @@ onBeforeUnmount(() => {
 
     &-item {
         height: 100%;
+        width: 100%;
         position: absolute;
         backface-visibility: hidden;
         transition: transform 0.6s ease-in-out;

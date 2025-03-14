@@ -1,5 +1,5 @@
 <template>
-    <section class="container py-5 text-center text-white" id="get">
+    <section class="container-fluid py-5 text-center text-white" id="server-info">
         <a data-bs-toggle="tooltip" data-bs-title="点击按钮以复制服务器 IP">
             <button class="btn btn-outline-light btn-lg mb-3 fs-2 fw-bold" type="button" onclick="copyToClipboard()"
                 data-bs-toggle="modal" data-bs-target="#myModal">
@@ -40,15 +40,7 @@
 
 
 <style lang="scss" scoped>
-.container {
+#server-info {
     background-image: linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-
-    padding-top: 3rem;
-    padding-bottom: 3rem;
 }
 </style>
