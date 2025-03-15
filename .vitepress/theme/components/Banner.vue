@@ -53,7 +53,7 @@ const slides = ref([
         title: '欢迎来到 Mahoo Town',
         description: '一个由玩家创造的 Minecraft 服务器，这里有你想要的一切。',
         buttons: [
-            { text: '加入我们', link: '/wiki' }
+            { text: '即刻游玩', link: '/overview' }
         ]
     },
     {
@@ -61,8 +61,8 @@ const slides = ref([
         title: '欲买桂花同载酒，终不似，少年游。',
         description: '本服务器用于怀念过去在 Minecraft 中度过的美好游戏时光。',
         buttons: [
-            { text: '查看 Wiki', link: '/wiki' },
-            { text: '查看 FAQ', link: './faq' }
+            { text: '查看教程', link: '/tutorial' },
+            { text: '常见问题', link: '/faq' }
         ]
     },
     {
@@ -71,7 +71,7 @@ const slides = ref([
         title: '田园牧歌，我们的家园。',
         description: '我们等你一起，探索田园牧歌式的人类宜居家园。',
         buttons: [
-            { text: '现在加入', link: '/wiki' }
+            { text: 'MC 启动', link: '/get-started' }
         ]
     },
 
@@ -166,6 +166,9 @@ onBeforeUnmount(() => {
             h1 {
                 font-weight: 700;
             }
+            p {
+                margin-bottom: 1rem;
+            }
         }
 
         .carousel-buttons {
@@ -223,7 +226,7 @@ onBeforeUnmount(() => {
     &-controls {
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
+        transform: translateY(100%);
         width: 100%;
         padding: 0 5%;
         display: flex;
@@ -231,7 +234,7 @@ onBeforeUnmount(() => {
         z-index: 2;
 
         .carousel-control {
-
+            transform: translateY(-150%);
             background: transparent;
             border: none;
             color: #fff;
