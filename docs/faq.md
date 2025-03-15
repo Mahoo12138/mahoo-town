@@ -2,48 +2,17 @@
 outline: deep
 ---
 
-# Runtime API Examples
+# 常见问题
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+## 我没有国际正版账号，盗版能加入服务器吗？
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+**可以的。** 在遵守服务器规则的前提下，任何人可以加入服务器。
 
-```md
-<script setup>
-import { useData } from 'vitepress'
 
-const { theme, page, frontmatter } = useData()
-</script>
+## 你们提供 Minecraft 的安装包吗？
 
-## Results
+**不提供。** 根据 Mojang 的 EULA，我们不提供 Minecraft 的安装包， 因为这是一项侵权行为。
 
-### Theme Data
-<pre>{{ theme }}</pre>
+## 我需要为此付费加入服务器吗？
 
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+**不需要。** Mahoo Town 是公益服务器，任何人都可以免费加入。同样，如果有人向你付费服务，都不是官方人员，切勿上当。
