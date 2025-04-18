@@ -3,7 +3,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mt-5 border-top">
             <div class="col mb-3">
                 <a href="#" class="d-flex align-items-center mb-3 text-decoration-none">
-                    <img class="img-fluid footer-logo" src="img/logo.png" alt="">
+                    <img class="img-fluid footer-logo" src="/img/logo.png" alt="">
                 </a>
                 <h5 class="text-center">田园牧歌 我们的家园</h5>
             </div>
@@ -85,3 +85,7 @@
         </div>
     </footer>
 </template>
+<script lang="ts" setup>
+const VERSION = "1.0.0"
+
+</script>
