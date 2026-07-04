@@ -10,6 +10,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '服务器介绍', link: '/overview' },
+      { text: '服务器数据', link: '/stats' },
       { text: '模组列表', link: '/mods' },
       { text: '常见问题', link: '/faq' },
     ],
@@ -30,6 +31,7 @@ export default defineConfig({
           },
           { text: '🤝玩家协议', link: '/rules' },
           { text: '💬常见问题', link: '/faq' },
+          { text: '📊服务器数据', link: '/stats' },
           { text: '📦模组列表', link: '/mods' },
         ]
       },

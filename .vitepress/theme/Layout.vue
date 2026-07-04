@@ -9,12 +9,14 @@ import Feature from './components/Feature.vue';
 import BuildingShowcase from './components/BuildingShowcase.vue';
 import Footer from './components/Footer.vue';
 import Team from './components/Team.vue';
+import ServerStats from './components/ServerStats.vue';
+import StatsHeader from './components/StatsHeader.vue';
 
 
 
 const base = useData().site.value.base
 const route = useRoute()
-const path = computed(() => route.path.replace(base, '').replace('index.html', ''))
+const path = computed(() => route.path.replace(base, '').replace(/\.html$/, ''))
 
 </script>
 
@@ -27,6 +29,10 @@ const path = computed(() => route.path.replace(base, '').replace('index.html', '
         <BuildingShowcase />
         <Team />
         <Footer />
+    </template>
+    <template v-else-if="path === 'stats'">
+        <StatsHeader />
+        <ServerStats />
     </template>
     <template v-else>
         <DefaultTheme.Layout />
