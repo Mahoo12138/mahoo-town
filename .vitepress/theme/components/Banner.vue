@@ -120,7 +120,7 @@ const itemStyle = computed(() => (index) => {
 })
 
 const startAutoPlay = () => {
-  autoPlayTimer = setInterval(nextSlide, 6000)
+  autoPlayTimer = setInterval(nextSlide, 8000)
 }
 
 const resetAutoPlay = () => {
