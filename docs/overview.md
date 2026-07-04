@@ -1,104 +1,34 @@
 # 服务器介绍
 
-
-Mahoo Town 是由 Mahoo12138 搭建的私人技术向养老生存服务器，基于 [Create: Civilizations](https://www.curseforge.com/minecraft/modpacks/create-civilizations-c-c) 整合包深度定制。本服务器仅供同好交流，严禁商业行为，玩家加入即视为同意 [Minecraft EULA](https://www.minecraft.net/zh-hans/eula)。
-
+Mahoo Town 是由 Mahoo12138 搭建的私人农场向养老生存服务器，基于 [农场物语 - FarmingTales Forge](https://bbsmc.net/modpack/ft-wt) 整合包。本服务器仅供同好交流，严禁商业行为，玩家加入即视为同意 [Minecraft EULA](https://www.minecraft.net/zh-hans/eula)。
 
 ## 整合包介绍
 
-服务器整合包在 [Create: Civilizations - C:C](https://www.curseforge.com/minecraft/modpacks/create-civilizations-c-c) 玩法基础上，做了一些自定义扩展。
+服务器采用 [农场物语 - FarmingTales Forge](https://bbsmc.net/modpack/ft-wt) 整合包 v1.4.4，为你带来完整的农场、烹饪和生活体验！
 
-+ 📖 任务系统解释了你的帝国崛起所需的所有机制！
-+ ⚙️ 使用诸如电动力学、核科学以及 “创造（Create）” 模组扩展之类的模组，以迈向现代时代！
-+ 🗺️ 得益于 “构造（Tectonic）”、“大地之石（Terralith）” 和 “未探索区域（Regions Unexplored）” 模组，地形生成非常逼真！
-+ 🥦 饮食系统、口渴设定、真实伤害和温度设定都包含其中！（精简版中已禁用）
-+ ⚔️ “近距离交锋（Point Blank）” 为你带来庞大的武器库！
-+ ⚔️ 有了 “瓦里姆（Warium）” 模组，就可以制造炸弹、火箭和核弹，所以快建造那辆坦克吧！
-+ 📜 大量的自定义配方，以确保兼容性！
-+ ⏩ 出色的性能仍然是首要任务，因此许多模组专门致力于提升客户端和服务器的性能。
-+ 🤝 使用 “e4mc” 打造你自己的多人游戏世界，无需服务器！
-+ 🎣 许多提高游戏体验的功能，比如背包，让游戏过程流畅又有趣。
+## 服务器配置
 
-::: tip
-以上为原版整合包玩法说法，本文档只做简单汉化。翻译若存在不准确，误导语义，请[在此指出](https://github.com/Mahoo12138/mahoo-town/issues)。
-:::
+- 🖥️ 服务器：Mac mini M4
+- 🌐 网络：25M 上下行带宽，Frp 内网穿透
+- 🎮 游戏版本：1.20.1 (Forge)
+- 📦 整合包版本：FarmingTales Forge Ⅱ v1.4.4
 
-## Syntax Highlighting
+## 核心特色
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
++ 🌾 **农夫乐事** - 丰富的农业系统，种植各种作物
++ 🍳 **烹饪系统** - 森罗厨房、国味、世界名酒等多种烹饪模组
++ 🏠 **温馨家园** - 多样的家具、装饰模组，打造理想家园
++ 🤖 **机械动力** - Create 模组，自动化你的农场和工厂
++ 🎎 **车万女仆** - 可爱的女仆陪伴你的冒险
++ 🗺️ **精美地形** - Tectonic、Structory 等地形模组
++ 🍂 **四季系统** - 静谧四季，体验春夏秋冬的变化
++ 📦 **精致存储** - 精致存储、精妙背包，轻松管理物品
++ 🎯 **任务系统** - FTB 任务，指引你的游戏进程
++ ⚡ **性能优化** - 众多优化模组，流畅游戏体验
 
-**Input**
+## 如何加入
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
-
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+1. 下载并安装 [农场物语 - FarmingTales Forge](https://bbsmc.net/modpack/ft-wt) 整合包
+2. 启动游戏，进入多人游戏
+3. 添加服务器，地址：`play.mahoo12138.cn`
+4. 开始你的农场冒险！
