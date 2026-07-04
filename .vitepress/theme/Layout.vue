@@ -6,6 +6,7 @@ import DefaultTheme from 'vitepress/theme'
 import Banner from './components/Banner.vue';
 import ServerInfo from './components/ServerInfo.vue';
 import Feature from './components/Feature.vue';
+import BuildingShowcase from './components/BuildingShowcase.vue';
 import Footer from './components/Footer.vue';
 import Team from './components/Team.vue';
 
@@ -23,6 +24,7 @@ const path = computed(() => route.path.replace(base, '').replace('index.html', '
         <Banner class="banner" />
         <ServerInfo />
         <Feature />
+        <BuildingShowcase />
         <Team />
         <Footer />
     </template>

@@ -3,13 +3,14 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Mahoo Town",
-  description: "A Minecraft Server Homepage",
+  description: "Minecraft 农场物语服务器主页",
   srcDir: 'docs',
   lastUpdated: true,
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
-      { text: '玩法教程', link: '/tutorial' },
+      { text: '服务器介绍', link: '/overview' },
+      { text: '模组列表', link: '/mods' },
       { text: '常见问题', link: '/faq' },
     ],
 
@@ -18,8 +19,18 @@ export default defineConfig({
         text: '简介',
         link: '/overview',
         items: [
+          {
+            text: '📜服务器规则',
+            collapsed: false,
+            items: [
+              { text: '规则总览', link: '/server-rules' },
+              { text: '游戏内规则', link: '/in-game-rules' },
+              { text: '红石与机器', link: '/redstone-rules' }
+            ]
+          },
           { text: '🤝玩家协议', link: '/rules' },
           { text: '💬常见问题', link: '/faq' },
+          { text: '📦模组列表', link: '/mods' },
         ]
       },
       {
